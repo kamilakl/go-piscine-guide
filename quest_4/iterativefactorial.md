@@ -1,4 +1,4 @@
-# Quest 4.6 Iterative Factorial
+# Quest 4.1 Iterative Factorial
 
 ## Название файла Go
 `iterativefactorial.go`

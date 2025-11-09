@@ -1,4 +1,4 @@
-# Quest 4.7 Recursive Factorial
+# Quest 4.2 Recursive Factorial
 
 ## Название файла Go
 `recursivefactorial.go`
