@@ -1,4 +1,4 @@
-# Quest 6. flags
+# Quest 6.6 Flags
 
 ## Название файла Go
 `flags/main.go`
@@ -12,11 +12,11 @@
 
 | **Instruction** | **Перевод** |
 |---------------------------|--------------|
-| Write a program that can take `--insert` (or `-i`), `--order` (or `-o`) and a `string` as arguments. | Напишите программу, которая принимает флаги `--insert` (или `-i`), `--order` (или `-o`) и строку. |
-| **This program should:** | **Эта программа должна:** |
-| - Insert the string given to `--insert` (or `-i`), into the main string. | - Вставить строку, указанную через `--insert` (или `-i`), в аргумент. |
-| - If the flag `--order` (or `-o`) is given, order the string (ASCII order). | - Если указан `--order` (или `-o`), отсортировать строку в порядке ASCII. |
-| - If no arguments or `--help` (or `-h`), print help. | - Если нет аргументов или указан `--help`, вывести справку. |
+| *Write a program that can take `--insert` (or `-i`), `--order` (or `-o`) and a `string` as arguments.* | *Напишите программу, которая принимает флаги `--insert` (или `-i`), `--order` (или `-o`) и строку.* |
+| This program should: | Эта программа должна: |
+| *- Insert the string given to `--insert` (or `-i`), into the main string.* | *- Вставить строку, указанную через `--insert` (или `-i`), в аргумент.* |
+| *- If the flag `--order` (or `-o`) is given, order the string (ASCII order).* | *- Если указан `--order` (или `-o`), отсортировать строку в порядке ASCII.* |
+| *- If no arguments or `--help` (or `-h`), print help.* | *- Если нет аргументов или указан `--help`, вывести справку.* |
 
 **Формат вывода:**  
 Перед коротким флагом должно быть **два пробела**, перед описанием — **табуляция и пробел**.
