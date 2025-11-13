@@ -1,93 +1,63 @@
-# Quest X. Task Title
-
-## Название файла Go
-`filename.go`
-
+# INTRODUCTION
 ---
+Это самый первый квест.
+Твоя цель — создать папку piscinego, написать свой первый скрипт hello.sh, загрузить его в свой репозиторий и отправить на проверку.
 
-## Условия задания 
+## 1. get-ready 
 
 | **Instruction** | **Перевод** |
 |---------------------------|--------------|
-| *(eng)* | *(ru)* |
+|Create in your Gitea account the repository named piscinego. This repository will be the folder where all the exercises must be uploaded. Once created, clone that repository on your desktop. | Создай в своём аккаунте Gitea репозиторий с названием piscinego. Этот репозиторий будет папкой, куда нужно загружать все упражнения. После того как репозиторий создан, клонируй его на свой компьютер. |
 
+
+
+### Тебе необходимо:
+| **Действие** | **Что делать** | **Зачем** |
+|---------------------------|--------------|--------------|
+|*Создать репозиторий* | *На своём Gitea аккаунте создать piscinego* |*В него ты будешь загружать ВСЕ задания* |
+|*Клонировать репозиторий* | *Выполнить команду git clone* |*Чтобы скачать его на компьютер* |
+|*Настроить Git* | *Сохранить пароль, чтобы не вводить каждый раз* |*Удобство* |
+
+### Команды и объяснение
+- **git config --global credential.helper store** *Git будет запоминать твой логин/пароль*
+- **git clone https://01.tomorrow-school.ai/git/<username>/piscinego.git** *Скачивает репозиторий на твой компьютер*
+
+### Пример (если имя пользователя azamat):
 ---
-
-Нужно написать функцию, которая *(...)*.
-
-### Пример
-
-- **Ввод:** *(input)*
-- **Вывод:** *(output)*
-
+git clone https://01.tomorrow-school.ai/git/azamat/piscinego.git
 ---
+У тебя нужно написать своё имя, которое у тебя на платформе.
 
-## Решение
+## 2. set 
 
-```go
-package piscinego
+| **Instruction** | **Перевод** |
+|---------------------------|--------------|
+|Once the repository is created, use your code editor to write your first shell script called hello.sh When executed, this script must print Hello choumi!, where choumi is your username.| После того как репозиторий создан, используй свой редактор кода, чтобы написать свой первый shell-скрипт с именем hello.sh. Когда этот скрипт будет запущен, он должен вывести: Hello choumi! где choumi — это твой username. |
 
-func FunctionName(parameters...) returnType {
-    // function body
-}
-```
 
+
+### Тебе необходимо:
+| **Что делать** | **Зачем** |
+|---------------------------|--------------|
+|*Создать файл hello.sh* | *Это твой первый скрипт* |
+|*Написать команду, чтобы напечатать приветствие* | *Ты учишься работать с Shell Script* |
+
+### Команды и объяснение
+- **bash hello.sh** *запуск твоего скрипта*
+
+### Пример файла hello.sh:
 ---
-
-## Ключевые понятия
-
-| **Инструмент / элемент кода** | **Объяснение и назначение** |
-|-------------------------------|------------------------------|
-| **Пакет (`package ...`)** | `package` - кусок кода |
-| **Функция (`func ...`)** | текст |
-| **Жирный текст** | текст |
-| **Жирный текст** | текст |
-| **Жирный текст** | текст |
-| **Жирный текст** | текст |
-| **Жирный текст** | текст |
-| **Жирный текст** | текст |
-
+echo "Hello choumi!"
 ---
+Вместо choumi — пиши свой username..
 
-## Логика и пошаговый разбор кода
+## 3. go-say-hello
 
-### 1. Объявление функции
-**В тройных скобках блок кода:**
+| **Instruction** | **Перевод** |
+|---------------------------|--------------|
+|After that the hello.sh is executing correctly, it needs to be uploaded to the repository with the following commands: git add hello.sh git commit -m "My very first commit" git push Once these steps are applied, the file can now be submitted for grading on the platform by clicking on the "RUN INTRODUCTION TEST" button. This action will run the tests on your submitted hello.sh file.| После того как hello.sh успешно выполняется, его нужно загрузить в репозиторий с помощью следующих команд: git add hello.sh git commit -m "My very first commit" git push После выполнения этих шагов файл можно отправить на проверку на платформе, нажав кнопку "RUN INTRODUCTION TEST". Это действие запустит тесты для твоего файла hello.sh. |
 
-```go
-func Join(strs []string, sep string) string {
-```
-Эта строка объявляет функцию **X**, которая принимает:
-
-- `strs` — срез строк (`[]string`) 
-- `sep` — строка-разделитель
-
-
-### 2. Проверка условия
-*(объяснение и пример)*
-
-### 3. Цикл
-*(объяснение и пример)*
-
-### 4. Возврат результата
-*(объяснение и пример)*
-
----
-
-## Глоссарий
-
-| **Термин** | **Понятное объяснение** |
-|-------------|--------------------------|
-| **...** | Текст |
-| **...** | Текст |
-| **...** | Текст |
-| **...** | Текст |
-| **...** | Текст |
-| **...** | Текст |
-| **...** | Текст |
-
----
-
-## Заключение
-
-Что нужно вынести и запомнить из этого задания
+### Команды и объяснение
+- **git add hello.sh** *Добавляет файл в staged area*
+- **git commit -m "My very first commit"** *Создаёт коммит*
+- **git push** *Отправляет файл на сервер. После push файл появится в Gitea.*
