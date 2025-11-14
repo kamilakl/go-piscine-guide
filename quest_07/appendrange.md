@@ -15,7 +15,7 @@
 ## Решение
 
 ```go
-package main
+package piscine
 
 func AppendRange(min, max int) []int {
 	if min >= max {
