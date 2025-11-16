@@ -93,10 +93,9 @@ func ListAt(l *NodeL, pos int) *NodeL {
 ## Логика и пошаговый разбор кода
 
 ### 1. Объявление функции
-**В тройных скобках блок кода:**
 
 ```go
-func Join(strs []string, sep string) string {
+func ListAt(l *NodeL, pos int) *NodeL{
 ```
 
 Эта строка объявляет функцию **ListAt**, которая принимает два параметра:
