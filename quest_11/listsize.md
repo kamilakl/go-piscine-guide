@@ -1,4 +1,4 @@
-# Quest 11.2. List Size
+# Quest 11.3. List Size
 
 ## Название файла Go
 `listsize.go`
