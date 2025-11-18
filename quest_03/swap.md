@@ -101,7 +101,7 @@ func fail(a, b int) {
 Этот код **не изменит исходные переменные**, потому что `a` и `b` — копии.
 
 ### Полезные ссылки  
-- Metanit — указатели: https://metanit.com/go/tutorial/3.3.php  
+- Metanit — указатели: https://metanit.com/go/tutorial/3.1.php
 - Go by Example — pointers: https://gobyexample.com/pointers  
 - YouTube: "Pointers in Go explained simply" (Dimbus, Golang Café, Гошаков)
 
