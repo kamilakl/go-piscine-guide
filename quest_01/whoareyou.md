@@ -5,8 +5,6 @@
 
 ---
 
-Твоя задача — создать Shell-скрипт who-are-you.sh, который будет обращаться к файлу JSON, извлекать из него имя пользователя по определенному ID и выводить только это имя.
-
 ## Инструкции к заданию
 
 "You just woke up in a dark alley... You can not remember who you are... The only thought that comes to your mind is a tag that says: Subject ID: 70"
