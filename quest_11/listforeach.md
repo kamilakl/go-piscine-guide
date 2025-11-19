@@ -12,14 +12,12 @@
 | *Write a function `ListForEach` that applies a function given as argument to the data within each node of the list `l`.* | *Напишите функцию `ListForEach`, которая применяет переданную функцию ко всем элементам списка `l`.* |
 | *The function given as argument must have a pointer as argument: `f(*NodeL)`.*                                           | *Передаваемая функция должна принимать указатель на узел (`*NodeL`).*                                |
 
+---
+
 После выполнения `ListForEach(l, f)`:
 - каждый узел списка должен быть изменён функцией `f(node)`
 - порядок списка не меняется
 - изменяются только данные внутри узлов (`Data`)
-
----
-
-Нужно написать функцию, которая *(...)*.
 
 ### Пример
 
