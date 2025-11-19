@@ -1,4 +1,4 @@
-# Quest 11.4. List Last
+# Quest 11.4 - List Last
 
 ## Название файла Go
 `listlast.go`

@@ -1,4 +1,4 @@
-# Quest 11.1. List Push Back
+# Quest 11.1 - List Push Back
 
 ## Название файла Go
 `listpushback.go`

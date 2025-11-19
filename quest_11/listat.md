@@ -1,4 +1,4 @@
-# Quest 11.6. listat
+# Quest 11.6 - listat
 
 ## Название файла Go
 `listat.go`

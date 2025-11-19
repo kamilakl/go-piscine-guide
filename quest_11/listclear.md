@@ -1,4 +1,4 @@
-# Quest 11.5. List Clear
+# Quest 11.5 - List Clear
 
 ## Название файла Go
 `listclear.go`

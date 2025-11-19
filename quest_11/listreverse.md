@@ -1,4 +1,4 @@
-# Quest 11.7 — List Reverse
+# Quest 11.7 - List Reverse
 
 ## Название файла
 `listreverse.go`

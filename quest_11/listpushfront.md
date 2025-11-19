@@ -1,4 +1,4 @@
-# Quest 11.2. List Push Front
+# Quest 11.2 - List Push Front
 
 ## Название файла Go
 `listpushfront.go`
