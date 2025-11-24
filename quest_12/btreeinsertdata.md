@@ -73,9 +73,14 @@ $
 ```go
 package piscine
 
+type TreeNode struct {
+	Left, Right, Parent *TreeNode
+	Data                 string
+}
+
 func BTreeInsertData(root *TreeNode, data string) *TreeNode {
 	if root == nil {
-		return &TreeNode{Data: data} // New root
+		return &TreeNode{Data: data}
 	}
 
 	current := root
@@ -95,7 +100,7 @@ func BTreeInsertData(root *TreeNode, data string) *TreeNode {
 		}
 	}
 
-	return root // Always return the root, not the inserted node
+	return root
 }
 ```
 
